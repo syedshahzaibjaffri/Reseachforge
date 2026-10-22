@@ -1,0 +1,6 @@
+{
+  "name": "ResearchForge AI",
+  "description": "From Real-World Problems to Evidence-Based Innovation. AI-powered research and innovation discovery platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

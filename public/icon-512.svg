@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="forgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#090d16" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#090d16"/>
+  <circle cx="256" cy="256" r="220" fill="url(#glow)"/>
+  <!-- Forge anvil/spark/search innovation glyph -->
+  <path d="M128 352h256v32H128z" fill="#334155" rx="8"/>
+  <path d="M160 352l32-128h128l32 128H160z" fill="#1e293b"/>
+  <!-- Hexagonal research lattice & spark -->
+  <polygon points="256,110 334,155 334,245 256,290 178,245 178,155" fill="none" stroke="url(#forgeGrad)" stroke-width="16" stroke-linejoin="round"/>
+  <!-- Central innovation spark -->
+  <circle cx="256" cy="200" r="24" fill="url(#forgeGrad)"/>
+  <path d="M256 144v24M256 232v24M200 200h24M288 200h24" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  <!-- Orbital arcs -->
+  <path d="M140 200a116 116 0 0 1 200 -70" fill="none" stroke="#38bdf8" stroke-width="8" stroke-dasharray="12 12"/>
+  <path d="M372 200a116 116 0 0 1 -200 70" fill="none" stroke="#818cf8" stroke-width="8" stroke-dasharray="12 12"/>
+</svg>

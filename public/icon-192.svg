@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="forgeGradSm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="48" fill="#090d16"/>
+  <polygon points="96,40 126,58 126,92 96,110 66,92 66,58" fill="none" stroke="url(#forgeGradSm)" stroke-width="7" stroke-linejoin="round"/>
+  <circle cx="96" cy="75" r="9" fill="url(#forgeGradSm)"/>
+  <path d="M48 132h96v12H48z" fill="#334155" rx="3"/>
+  <path d="M60 132l12-48h48l12 48H60z" fill="#1e293b"/>
+</svg>
